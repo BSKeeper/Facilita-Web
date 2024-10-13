@@ -1,0 +1,135 @@
+/* Definir la paleta de colores */
+:root {
+    --azul-oscuro-1: #0D3B66;
+    --azul-oscuro-2: #144D7D;
+    --azul-medio-1: #1E6091;
+    --azul-medio-2: #468FAF;
+    --azul-claro-1: #56A3D4;
+    --azul-claro-2: #A9D6E5;
+    --azul-suave: #CAF0F8;
+    --blanco-azulado: #EAF4F9;
+    --blanco-puro: #FFFFFF;
+    --gris-azulado: #B0C4DE;
+}
+
+/* Reset de estilos básicos */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #0066cc; /* Ajusta este color según tu paleta */
+    padding: 10px 0;
+}
+
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--blanco-azulado);
+    color: var(--azul-oscuro-2);
+}
+
+
+/* Estilo para el contenedor del logo */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilo para la imagen del logo */
+.logo {
+    max-height: 50px; /* Ajusta el tamaño del logo según prefieras */
+    width: auto;
+    margin-right: 10px;
+}
+
+
+/* Contenedor principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Barra de Navegación */
+.navbar {
+    background-color: var(--azul-medio-1);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.navbar .logo {
+    color: var(--blanco-puro);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--blanco-puro);
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: var(--azul-claro-2);
+}
+
+/* Sección de Bienvenida */
+
+/* Estilo para la sección de bienvenida */
+
+
+.welcome-section {
+    margin-top: 20px;
+    text-align: center;
+    background-color: var(--blanco-puro);
+    padding: 50px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-section h2 {
+    font-size: 32px;
+    color: var(--azul-oscuro-1);
+    margin-bottom: 10px;
+}
+
+.welcome-section p {
+    font-size: 18px;
+    color: var(--azul-medio-2);
+}
+
+/* Estilo para el pie de página */
+.footer {
+    background-color: #004a99; /* Ajusta este color según tu paleta */
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 0.9em;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
